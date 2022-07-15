@@ -7,7 +7,7 @@ Despite its age, the game remains CPU bottlenecked to this day due to the fact t
 This patch removes the leftover debug code, improving __loading times by 40-50% on Windows__ and by nearly 3000% on Linux (that's not a typo), __game performance will also improve by about 10-15%__ in CPU-bound scenarios (such as large hordes of rats), and __stuttering is reduced__ in general.
 
 ## Installation
-* Make sure you're using the GOG version of the game, it should say Version 2.14 in the menu
+* Make sure you're using the latest version of the game, it should say Version 2.14 in the menu
 * Open the game's installation folder
 * Rename `binkw32.dll` to `binkw23.dll`
 * Extract `binkw32.dll` to the game's folder
@@ -32,7 +32,7 @@ __Please note that your antivirus software might classify this patch as malware 
 This patch contains a simple ASI loader. To load ASI mods into the game, make a folder called `asi` in the game's installation folder and put your ASI mods into it, they'll be loaded automatically when the game is launched.
 
 ## How it works
-This article explains how this fix was made and how it works: [link](https://fdossena.com/?p=whmocfix/i.md)
+This article explains how this fix was made and how it works: [link](https://fdossena.com/?p=whmoc/i.md)
 
 ## How to build
 Want to improve the patch? Great! You'll need Visual Studio 2019. Load the solution in VS, make sure the Release x86 build is selected, and build it.
